@@ -1,12 +1,22 @@
+@font-face {
+    font-family: Penna;
+    src: url(penna.otf);
+}
+
 body {
   	background: #377788;
 	background-image:url('APClotussmall.png');
 	background-repeat:no-repeat;
 	background-position:top right;
     color: white;
-	font-family: sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-style: normal;
 	font-size:16px;
+}
+
+h1, h2{
+    font-family: Penna;
+    text-transform: uppercase;
 }
 
 a:link{
