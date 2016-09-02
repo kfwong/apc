@@ -17,6 +17,10 @@ a:visited{
     color: white;
 }
 
+img{
+    max-width: 560px;
+}
+
 .header {
 	background: transparent;
 	width:900px;
