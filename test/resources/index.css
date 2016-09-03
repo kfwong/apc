@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Penna;
+    src: url(penna.otf);
+}
+
+body {
+  	background: white;
+	background-image:url('APClotussmall.png');
+	background-repeat:no-repeat;
+	background-position:top right;
+    color: #444444;
+	font-family: Helvetica, sans-serif;
+	font-style: normal;
+	font-size:16px;
+}
+
+h1, h2{
+    font-family: Penna;
+    text-transform: uppercase;
+    color: #377788;
+}
+
+a:link{
+    color: #377788;
+}
+
+a:visited{
+    color: #377788;
+}
+
+img{
+    max-width: 560px;
+}
+
+.header {
+	background: transparent;
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+.leftpart {
+	background: transparent;
+	float:left;
+	width:250px;
+	height:700px;
+	text-align:right;
+	padding-right:25px;
+}
+
+.rightpart {
+	background: transparent;
+	width:600px;
+	float:left;
+}
+
+.rightpartline {
+	background: transparent;
+	height:40px;
+	width:600px;
+	float:left;
+	border-bottom-style:solid;
+	border-bottom-color:#377788;
+}
+
+.rightpartnoline {
+	background: transparent;
+	height:40px;
+	width:600px;
+	float:left;
+}
+
+.addressleft {
+	background: transparent;
+	float:left;
+	width:290px;
+    color: #377788;
+}
+
+.addressright {
+	background: transparent;
+	float:right;
+	width:290px;
+	text-align:right;
+    color: #377788;
+}
+
+.img-box{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #888888;
+    margin:15px;
+}
+
+.float-right{
+    float: right;
+}
